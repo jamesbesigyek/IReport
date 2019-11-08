@@ -1,0 +1,26 @@
+{
+  "name": "ireport",
+  "version": "1.0.0",
+  "description": "A mobile web app for reporting information related to poarching anonymously.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jamesbesigyek/IReport.git"
+  },
+  "author": "Team Ireport",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jamesbesigyek/IReport/issues"
+  },
+  "homepage": "https://github.com/jamesbesigyek/IReport#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^1.19.4",
+    "pug": "^2.0.4"
+  },
+  "devDependencies": {}
+}
