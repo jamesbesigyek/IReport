@@ -9,6 +9,9 @@ const bodyParser = require("body-parser")
 app.use(bodyParser.urlencoded({extended: true}))
 app.set("view engine", "pug")
 app.set("views", path.join(__dirname, "views")) //setting the views path
+var mongoose = require("mongoose");
+mongoose.Promise = global.Promise;
+mongoose.connect("mongodb://localhost:27017/node-demo");
 
 
     
