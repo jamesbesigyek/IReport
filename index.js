@@ -24,6 +24,10 @@ const ireport = new mongoose.Schema({      //creating a schema
   })
 
   const report = mongoose.model("register", ireport); 
+app.set("views", path.join(__dirname, "views")) //setting the views path
+var mongoose = require("mongoose");
+mongoose.Promise = global.Promise;
+mongoose.connect("mongodb://localhost:27017/node-demo");
 
 
     
