@@ -25,19 +25,10 @@ app.listen(5000,()=>{                           //arrow function
 /*method for the landing page*/
 
 app.get('/', function(req, res) {
-    res.sendFile(path.join(__dirname + '/index.html'));
+    res.sendFile(path.join(__dirname + '/views/index.html'));
 });      
     
 
-
-
-
-
-app.get("/register",(req, res, next)=>{
-   // console.log("body", req.body)
-    //console.log("query params", req.query);
-    res.render("register")
-})
 // posting the form
 app.post("/register",(req, res, next)=>{
     console.log("form has been posted")
