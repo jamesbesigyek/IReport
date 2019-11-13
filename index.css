@@ -1,0 +1,25 @@
+.all{
+   
+    width: 700px;
+    margin-top: 20px;
+    border-radius: 50px;
+    box-shadow: 0 0 3px 10px;
+    color: black;
+    padding: 20px;
+    margin-top: 150px;
+    background-color: rgba(64, 29, 190, 0.2)
+
+    
+}
+textarea{
+    margin-left: 0px;   
+}
+p{
+    margin-left: 0px;
+}
+.header{
+    text-align: center;
+    font-size: 50px;
+}
+
+
