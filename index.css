@@ -1,0 +1,36 @@
+.wards{
+   margin-left: 450px;
+   margin-top: 70px; 
+   border-radius: 30px;
+   color:black;
+   box-shadow: 0 0 0px 1px;
+   width: 500px;
+   height: 520px;
+   font-size: 16px;
+}
+.div{
+    margin-left: 30px;
+    padding: 20px; 
+    margin-top: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+ 
+ border-radius: 30px;
+}
+
+h1{
+    text-align: center;
+}
+
+
+button{
+    border:groove;
+    width: 100px;
+}
+
+input{
+    border :2px solid green; 
+    border-radius: 5px;
+}
+textarea{
+    border :2px solid green;   
+}
