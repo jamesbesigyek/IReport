@@ -10,6 +10,7 @@ app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({extended: true}))
 app.set("view engine", "pug")
 app.set("views", path.join(__dirname, "views")) //setting the views path-pugs here is the folder where rendered files are located
+app.use(express.static(__dirname + '/views'));
 const mongoose = require("mongoose");
 mongoose.Promise = global.Promise;  //a promise is feedback mechanism on the status of the transaction
 mongoose.connect("mongodb://localhost:27017/node-demo"); 
