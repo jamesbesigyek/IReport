@@ -4,44 +4,55 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>ireport</title>
-    <link rel="stylesheet" href="ireport.css" type="text/css">
-</head>
-<body>
-    <div class="report">
-        <h1> Incident report</h1>
-        <form netthod="post" action="/index2.pug">
-            <P> Enter your Name</P>
-            <input type="text" name="name" class="name" id="name">
-            <P> Enter your phone number</P>
-            
-            <input type="number" name="phoneNumber" class="PhoneNumber" id="phoneNumber"> <br>
-            <br>    
-            <P>Choose an ctivity to report</P>
-            <select name="activity" id="activity" name="activity">
-                <option value="logging">Illegal logging</option>
-                <option value="logging">poaching</option>
-
-            </select>
-            <P>Briefly describe the activity</P>
-            <br>
-            <input type="text" name="description" class="description" id="description">
-            <p>Where is the location of the activity (as detailed as possible)</p>
-            <br>
-            <input type="text" name="location" class="location" id="location">
-            <P> Any other details you woyld like to add</P>
-            <br>
-            <input type="text" name="details" class="details" id="details"> <br>
-            <br>
-
-            <button class="submit">this is a submit button</button> <br>
-            <br>
-        </form>
-        
-    </div>
-    
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="index.css">
    
+</head>
+<body style="background-image:url('image2.jpg')">
+     <div class="anni">
+  
+    <div class="card bg-dark text-white">
+        <!--img src="image1.jpg" class="card-img" alt="..."-->
+        <div class="card-img-overlay">
 
-    
+                <form action="">
+                        <div class="wards">
+                               
+                                <div class="div">
+                                        <h1>LET'S STOP POACHING</h1>
+<label for=""> <select name="" id="">
+                 <option value="">select the  activity to report</option>                  
+<option value="">Poaching</option>
+<option value="">Illegal logging</option>
+
+<option value="">Others </option>
+
+
+                           </select>    
+                        </label>                 
+                      
+                        <br/>
+                    
+<p>Please Describe the Incident</p>
+<textarea name="" id="" cols="47" rows="5"></textarea>
+<br>
+<label for="">Give the direction to the place</label>
+<br/>
+<input type="text" placeholder="enter location">
+
+<p>Any other details about the Incident that you would like to provide</p>
+<textarea name="" id="" cols="47" rows="5"></textarea>
+<br/>
+<button>submit</button>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<button>cancel</button>
+</div>
+</div>
+</form>
+        </div>
+      </div>
+    </div>
 </body>
 </html>
