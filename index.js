@@ -6,23 +6,27 @@ const express = require("express");
 const app = express();
 const path = require("path");
 const bodyParser = require("body-parser")
+
+
+//setting the views path and view engine for pug. This establishes the MVC model
+
+app.set("view engine", "pug")
+app.set("views", path.join(__dirname, "views")) 
+
+// middleware for CSS and body parser
+
+app.use(express.static(__dirname + '/views'));
 app.use(bodyParser.json())                          
 app.use(bodyParser.urlencoded({extended: true}))
 
 
-
-app.set("view engine", "pug")
-app.set("views", path.join(__dirname, "views")) //setting the views path-pugs here is the folder where rendered files are located
-app.use(express.static(__dirname + '/views'));
-
-app.set("views", path.join(__dirname, "views")) //setting the views path
 
 // import routes
 
 const postroutes = require("./routes/routes")
 app.use("/",postroutes)
 
-
+// listening on port 4000
 app.listen(4000,()=>{                          
     console.log("listening on port 4000")
    
