@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+html(lang="en")
+    head
+       
+        title Illegal Poaching Activity
+        link(rel="stylesheet", href="http://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css")  
+    body
+        header.card-header
+            h4.card-title Reported Incidentd
+        table.table
+            thead.thead-dark
+                tr
+                    th name
+                    th phone
+                    th activity
+                    th description
+                    th location
+                    th details
+                    
+                tbody 
+                    
+                        each user in users
+                            tr
+                                td #{user.name} 
+                                td #{user.phone}
+                                td #{user.activity}
+                                td #{user.description}
+                                td #{user.location}
+                                td #{user.details}
+                                

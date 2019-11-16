@@ -1,0 +1,45 @@
+.wards{
+   margin-left: 400px;
+   margin-top: 70px; 
+   border-radius: 30px;
+   color:black;
+   box-shadow: 0 0 0px 1px;
+   width: 600px;
+   height: 590px;
+   font-size: 16px;
+  
+   background-repeat: no-repeat;
+   background-size: cover;
+
+}
+.div{
+    margin-left: 90px;
+    padding: 20px; 
+    margin-top: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    width: 500px;
+    height: 500px;
+ border-radius: 30px;
+}
+
+h1{
+    margin-left: 10px;   
+}
+
+
+button{
+    border:groove;
+    width: 100px;
+}
+
+input{
+    border :2px solid green; 
+    border-radius: 5px;
+}
+textarea{
+    border :2px solid green;   
+}
+.anni{
+
+}
+.card-img{}
