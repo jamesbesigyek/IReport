@@ -1,24 +1,26 @@
 .wards{
-   margin-left: 400px;
-   margin-top: 70px; 
+   margin-left: 80px;
+   margin-top: 0px; 
    border-radius: 30px;
    color:black;
    box-shadow: 0 0 0px 1px;
-   width: 600px;
-   height: 590px;
-   font-size: 16px;
-  
-   background-repeat: no-repeat;
-   background-size: cover;
+   width: 540px;
+   height: 580px;
+   font-size: 17px;
+   /* background-repeat: no-repeat;
+   background-size: cover; */
 
 }
+
 .div{
-    margin-left: 90px;
-    padding: 20px; 
-    margin-top: 20px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    /* margin-left: 40px; */
+    padding: 0px; 
+    margin-top: 0px;
+    font-size: 15px;
+    font-weight: bold;
     width: 500px;
     height: 500px;
+    color: #799f0c;
  border-radius: 30px;
 }
 
@@ -39,7 +41,35 @@ input{
 textarea{
     border :2px solid green;   
 }
-.anni{
 
+.submit{
+    height: 40px;
+    width: 100px;
+    border: solid black 3px;
+    font-size:20px; margin-right: 12px;
+    border: solid 1px;
+    font-weight: bold; border-radius: 10px;
+    background-color: silver;
+    color: solidblack;
+    margin-right: 70px;
 }
-.card-img{}
+.anni{
+    display: flex;
+}
+
+.login {
+    background-color:transparent;
+    height: 300px;
+    width: 500px;
+    color: solid white;
+    padding: 2em;
+    border-radius: 3em;
+    display: inline-block;
+    transform: scale(0.9);
+    transition: trnsform.6s;
+    margin-left: 800px;
+    padding-bottom: 100px;
+    padding-top: 25px;
+    
+    margin-right: 500px;
+  }

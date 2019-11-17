@@ -1,64 +1,152 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="index.css">
-   
-</head>
-<body style="background-image:url('image2.jpg')">
-     <div class="anni">
-  
-    <div class="card bg-dark text-white">
-        <!--img src="image1.jpg" class="card-img" alt="..."-->
-        <div class="card-img-overlay">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <script rel="stylesheet" href="../js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="/views/index.css">
 
-                <form method="POST" action="#">
-                        <div class="wards">
-                               
-                                <div class="div">
-                                        <h1>LET'S STOP POACHING</h1>
-                                        <label for="">Name</label>
-                                        <input type="text" style="height: 30px;" name="name" placeholder="enter your name">
-                                        <br/>
-                                        <br/>
-                                        <label for="">Phone</label>
-                                        <input type="text" style="height: 30px;" name="phone" placeholder="enter your phone number">
-                                        <br/><br/>
-                                        <select name="activity" style="height: 30px;" id="activity" >
-                        
-                                                <option value="">select the  activity to report</option>                  
-                                                <option value="Poaching" selected>Poaching</option>
-                                                <option value="Illegal logging">Illegal logging</option>
-                                                <option value="Others">Others </option>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+      <a class="navbar-brand" style="color: white;" href="#">Home</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse"
+        data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02"
+        aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-                                        </select>    
-                                        </label>                 
-                                                        
-                                        <br/>
-                                        
-                                        <p>Please Describe the Incident</p>
-                                        <textarea name="description" id="" cols="47" rows="5"></textarea>
-                                        <br>
-                                        <label for="">Give the direction to the place</label>
-                                        <br/>
-                                        <input type="text" style="height: 30px;" name="location" placeholder="enter location">
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+          <li class="nav-item active">
+            <a class="nav-link" style="color: white;" href="#">About Us<span
+                class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" style="color: white;" href="#">Link</a>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search"
+            placeholder="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+      </div>
+    </nav>
 
-                                        <p>Any other details about the Incident that you would like to provide</p>
-                                        <textarea name="details" id="" cols="47" rows="5"></textarea>
-                                        <br/><br/>
-                                        <button>submit</button>
-                                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                        
-                                </div>
-                        </div>
-                </form>
+    <div class="anni">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-7">
+            <div class="bd-example">
+              <div class="bd-example">
+                <div id="carouselExampleCaptions" class="carousel slide"
+                  data-ride="carousel">
+                  <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleCaptions" data-slide-to="0"
+                      class="active"></li>
+                    <li data-target="#carouselExampleCaptions"
+                      data-slide-to="1"></li>
+                    <li data-target="#carouselExampleCaptions"
+                      data-slide-to="2"></li>
+                  </ol>
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img src="stop poach.jpg" style="height:430px;"
+                        class="img-fluid" class="d-block w-100" alt="Responsive
+                        image">
+                      <div class="carousel-caption d-none d-md-block">
+                        <h3 style="color: white; font-size: 50px;">Don't let
+                          them be history</h3>
+
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <img src="poach.jpg" style="height:460px;"
+                        class="img-fluid" class="d-block w-100" alt="Responsive
+                        image">
+                      <div class="carousel-caption d-none d-md-block">
+                        <h3 style="color:white; font-size: 50px;">Say no to
+                          Wildlife abuse</h3>
+
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <img src="rhino-skin.jpg" style="height:460px;"
+                        class="img-fluid" class="d-block w-100" alt="Responsive
+                        image">
+                      <div class="carousel-caption d-none d-md-block">
+                        <h3 style="color: white; font-size: 50px;">Don't let
+                          them be Destroyed</h3>
+
+                      </div>
+                    </div>
+                  </div>
+                  <a class="carousel-control-prev"
+                    href="#carouselExampleCaptions" role="button"
+                    data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                  </a>
+                  <a class="carousel-control-next"
+                    href="#carouselExampleCaptions" role="button"
+                    data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="login" style="height: 300px; border-radius: 3em; display: inline-block;
+          width:400px;"> 
+            <h1 style="margin-left: 200px; font-size: 80px; font-style:
+              italic;">iReport</h1>
+            <form action="#">
+              <div style="height: 38px;
+              width: 300px;
+              color: black;
+              font-size: 20px;" id="baata">
+                <label>Username:</label>
+                <br />
+                <input type="text" class="input" id="baata1" placeholder="Please enter your Username"><br /><br />
+                <label>Password:</label> <br />
+                <input type="password" class="input" id="baata2"
+                  placeholder="Please enter your Password" /><br /><br />
+                <button type="login" style="width: 130px; height: 45px;
+                  color:black; background-color:none; font-size: 20px;"
+                  onclick="check()">
+                  Login
+                </button>
+                <button type="cancel" id="event" style="width: 130px; height:
+                  45px;
+                  color:black; background-color:
+                  none; font-size: 20px;" onclick="check()">
+                  Cancel
+                </button>
+              </div>
+            </form>
+          </div>
+
         </div>
       </div>
-    </div>
-</body>
-</html>
+
+      <footer style="background-color:rgb(219, 217, 217); width: 100%;
+        min-height: 50px;
+        color: #3b5998; font-size:40px;">A tool to report poaching and illegal logging</footer>
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+      <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+      <script
+        src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    </body>
+  </html>
